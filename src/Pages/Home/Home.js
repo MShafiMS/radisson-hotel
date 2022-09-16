@@ -1,5 +1,6 @@
 import React from "react";
 import Banner from "./Banner";
+import Contact from "./Contact";
 import Sections from "./Sections";
 import Slider from "./Slider";
 import Slider2 from "./Slider2";
@@ -11,6 +12,7 @@ const Home = () => {
       <Sections></Sections>
       <Slider></Slider>
       <Slider2></Slider2>
+      <Contact></Contact>
     </div>
   );
 };

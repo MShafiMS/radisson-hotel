@@ -115,59 +115,16 @@ const Slider2 = () => {
                   </div>
                   <div className="text-start mt-8">
                     <h1 className="text-3xl font-medium">
-                      CLOSE TO EVERYTHING
+                    THE PERFECT MIX
                     </h1>
                     <p>
-                      Steps away from two landmark Universities, the Museum of
-                      Fine Arts, Premium shopping destinations, Bell Center and
-                      other city landmarks. You won’t need to commute in order
-                      to enjoy the city’s most entertaining spots.
+                    Montreal's famous food and drink scene is right at your doorstep, and nearby Metro stations will take you anywhere in the city.
                     </p>
                   </div>
                 </div>
                 <div className="w-11/12">
                   <img
                     src="https://images.unsplash.com/photo-1605825831039-8b6b4199b04a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-                    alt=""
-                    className="w-full"
-                  />
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="bg-[#E4E1DF] hero">
-              <div className="hero-content gap-32 items-start flex-col lg:flex-row-reverse">
-                <div className="w-6/12 flex flex-col">
-                  <div className="w-full flex">
-                    <div className="flex-1"></div>
-                    <div className="flex-none w-8/12">
-                      <img src="https://images.unsplash.com/photo-1522798514-97ceb8c4f1c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" />
-                    </div>
-                  </div>
-                  <div className="flex justify-end my-7 w-full gap-4">
-                    <div className="border border-[#2E4239] text-[#2E4239] cursor-pointer custom-swiper-button-prev p-[6px] rounded-full">
-                      <AiOutlineArrowLeft />
-                    </div>
-                    <div className="border border-[#2E4239] text-[#2E4239] cursor-pointer custom-swiper-button-next p-[6px] rounded-full">
-                      <AiOutlineArrowRight />
-                    </div>
-                  </div>
-                  <div className="text-start mt-8">
-                    <h1 className="text-3xl font-medium">
-                      CLOSE TO EVERYTHING
-                    </h1>
-                    <p>
-                      Steps away from two landmark Universities, the Museum of
-                      Fine Arts, Premium shopping destinations, Bell Center and
-                      other city landmarks. You won’t need to commute in order
-                      to enjoy the city’s most entertaining spots.
-                    </p>
-                  </div>
-                </div>
-                <div className="w-11/12">
-                  <img
-                    src="https://images.unsplash.com/photo-1545175707-9eec1209f720?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
                     alt=""
                     className="w-full"
                   />
