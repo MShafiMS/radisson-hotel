@@ -3,10 +3,10 @@ import { MdEmail, MdLocalPhone, MdLocationOn } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className="bg-[#E4E1DF] lg:px-16">
+    <div className="bg-[#E4E1DF] md:px-8 lg:px-16">
       <div className="lg:flex items-end py-16">
-        <h1 className="lg:text-9xl text-7xl text-center lg:text-left font-header w-full">radisson</h1>
-        <p className="w-full hidden lg:flex items-center gap-2 uppercase">
+        <h1 className="lg:text-9xl text-7xl text-center md:text-9xl lg:text-left font-header md:font-bold w-full">radisson</h1>
+        <p className="w-full hidden md:justify-center lg:flex md:flex items-center gap-2 uppercase">
           <div>
             <span className="font-bold">Lorem</span>ipsum
           </div>
@@ -22,7 +22,7 @@ const Footer = () => {
           </div>
         </p>
       </div>
-      <div className="py-10 lg:flex w-full justify-between max-w-2xl">
+      <div className="py-10 md:flex md:justify-around lg:flex w-full lg:justify-between lg:max-w-2xl">
         <div className="flex flex-col gap-1 text-center lg:text-left">
           <MdEmail className="text-4xl mx-auto lg:mx-0" />
           <h1 className="text-4xl font-medium">EMAIL</h1>
@@ -77,9 +77,9 @@ const Footer = () => {
           </svg>
         </a>
       </div>
-      <div className="flex border-t pt-10 pb-14 border-neutral lg:justify-between">
+      <div className="flex border-t pt-10 pb-14 border-neutral md:justify-between lg:justify-between">
         <p className="text-center">Copyright © 2022 - All right reserved by Radisson Resort Ltd</p>
-        <p className="hidden lg:block">Credits</p>
+        <p className="hidden lg:block md:block">Credits</p>
       </div>
     </div>
   );

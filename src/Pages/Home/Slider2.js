@@ -17,23 +17,25 @@ import { Pagination } from "swiper";
 const Slider2 = () => {
   return (
     <div id="hood" className="bg-[#E4E1DF] px-5 lg:px-10">
-      <div className="py-16">
-        <div className="flex flex-row mb-6 gap-1 lg:gap-8 text-lg text-[#2E4239] font-medium">
-          <p>NEIGHBOURHOOD</p>
-          <p>•</p>
-          <p>HOOD</p>
-          <p>•</p>
-          <p>THE BLOCK</p>
-        </div>
-        <h1 className="lg:text-8xl text-5xl text-[#2E4239] font-semibold pb-6">
-          DOWNTOWN <span className="hidden lg:inline">—</span>
-        </h1>
-        <div className="max-w-sm">
-          <p>
-            Known as one of the safest North American hubs, Downtown Montreal is
-            vibrant with shoppers, office workers and students from McGill and
-            Concordia Universities.
-          </p>
+      <div className="hero">
+        <div className="hero-content flex-col w-full justify-start py-16">
+          <div className="flex flex-row mb-6 w-full gap-1 lg:gap-8 text-lg text-[#2E4239] font-medium">
+            <p>NEIGHBOURHOOD</p>
+            <p>•</p>
+            <p>HOOD</p>
+            <p>•</p>
+            <p>THE BLOCK</p>
+          </div>
+          <h1 className="lg:text-8xl w-full text-5xl text-[#2E4239] font-semibold pb-6">
+            DOWNTOWN <span className="hidden lg:inline">—</span>
+          </h1>
+          <div className="w-full">
+            <p className="max-w-sm">
+              Known as one of the safest North American hubs, Downtown Montreal
+              is vibrant with shoppers, office workers and students from McGill
+              and Concordia Universities.
+            </p>
+          </div>
         </div>
       </div>
       <div>

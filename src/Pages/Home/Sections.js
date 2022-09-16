@@ -3,7 +3,7 @@ import React from "react";
 const Sections = () => {
   return (
     <div className="bg-[#E4E1DF] lg:px-10">
-      <h1 className="lg:text-8xl text-5xl text-center font-sub font-bold py-5 lg:py-20">
+      <h1 className="lg:text-8xl text-5xl lg:text-left text-center font-sub font-bold py-5 lg:py-20">
         THE BUILDING
       </h1>
       {/* hero1 */}

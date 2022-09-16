@@ -8,7 +8,7 @@ const Contact = () => {
           <div className="w-full">
             <img
               src="https://assets.website-files.com/62701b7ce52f4ac3cc48cf3d/629fbe5791ac2fbeb6a554e7_2_Lobby_Front%20mirror%20view-p-800.jpeg"
-              className=""
+              className="w-full"
             />
           </div>
           <div className="w-full flex flex-col my-6 lg:my-0 lg:px-0 px-4 lg:mt-16 lg:mx-8 gap-4 lg:gap-10">
@@ -16,7 +16,7 @@ const Contact = () => {
             <p>
               Our leasing agents are available for virtual and in-person visits.
             </p>
-            <div className="grid lg:grid-cols-2 gap-6 lg:gap-12">
+            <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-6 lg:gap-12">
               <input
                 type="text"
                 placeholder="FIRST NAME"

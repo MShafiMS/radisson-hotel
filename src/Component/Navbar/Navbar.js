@@ -31,17 +31,26 @@ const Navbar = () => {
       <div className="flex-none">
         <ul className="flex gap-6 text-lg font-medium">
           <li>
-            <AnchorLink href="#units" className="p-1 hover:scale-110 duration-300">
+            <AnchorLink
+              href="#units"
+              className="p-1 hover:scale-110 duration-300"
+            >
               AVAILABLE UNITS
             </AnchorLink>
           </li>
           <li>
-            <AnchorLink href="#hood" className="p-1 hover:scale-110 duration-300">
+            <AnchorLink
+              href="#hood"
+              className="p-1 hover:scale-110 duration-300"
+            >
               NEIGHBOURHOOD
             </AnchorLink>
           </li>
           <li>
-            <AnchorLink href="#contact" className="p-1 hover:scale-110 duration-300">
+            <AnchorLink
+              href="#contact"
+              className="p-1 hover:scale-110 duration-300"
+            >
               CONTACT
             </AnchorLink>
           </li>

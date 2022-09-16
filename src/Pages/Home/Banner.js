@@ -74,10 +74,10 @@ const Banner = () => {
               />
               <motion.div ref={ref} className="min-h-screen">
                 <div className="min-h-screen text-center lg:text-left mx-5 lg:mx-20">
-                  <h1 className="mb-16 lg:pt-0 pt-48 text-3xl lg:text-5xl font-medium w-full lg:lg:max-w-2xl">
+                  <h1 className="mb-16 lg:pt-0 md:pt-72 pt-48 text-3xl lg:text-5xl font-medium w-full lg:lg:max-w-2xl">
                     Hotel comfort, long term convenience.
                   </h1>
-                  <div className="flex lg:flex-row flex-col text-center gap-10 lg:gap-40 lg:mb-96">
+                  <div className="flex lg:flex-row md:flex-row lg:justify-start md:justify-center flex-col text-center gap-10 lg:gap-40 md:mb-48 lg:mb-96">
                     <div className="lg:w-fit text-4xl">
                       <AiOutlineBulb className="mx-auto mb-2" />
                       <p>Utilities</p>
@@ -103,7 +103,6 @@ const Banner = () => {
                     Flexible leasing terms. <br /> 1-month minimum. <br />{" "}
                     Monthly <VscArrowBoth className="inline" /> Yearly
                   </h1>
-                  <h1 className="lg:py-96 py-48 text-3xl lg:text-5xl font-medium lg:max-w-2xl"></h1>
                 </div>
               </motion.div>
             </div>
