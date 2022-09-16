@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
-import React, { useRef } from "react";
+import React from "react";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import { useScroll } from "../../Hooks/useScroll";
 
 const Navbar = () => {
-  const scrollRef = useRef(null);
   const { y, x, scrollDirection } = useScroll();
   const styles = {
     active: {
@@ -21,35 +21,42 @@ const Navbar = () => {
       initial="visible"
       whileInView="hidden"
       style={scrollDirection === "down" ? styles.active : styles.hidden}
-      className="navbar px-14 fixed z-50 bg-base-100 py-4"
+      className="navbar lg:flex px-14 hidden fixed z-50 bg-base-100 py-4"
     >
       <div className="flex-1">
-        <button className="font-bold p-1 font-header text-5xl">radisson</button>
+        <AnchorLink href="#" className="font-bold p-1 font-header text-5xl">
+          radisson
+        </AnchorLink>
       </div>
       <div className="flex-none">
         <ul className="flex gap-6 text-lg font-medium">
           <li>
-            <button className="p-1 hover:scale-110 duration-300">
+            <AnchorLink href="#units" className="p-1 hover:scale-110 duration-300">
               AVAILABLE UNITS
-            </button>
+            </AnchorLink>
           </li>
           <li>
-            <button className="p-1 hover:scale-110 duration-300">
+            <AnchorLink href="#hood" className="p-1 hover:scale-110 duration-300">
               NEIGHBOURHOOD
-            </button>
+            </AnchorLink>
           </li>
           <li>
-            <button className="p-1 hover:scale-110 duration-300">
+            <AnchorLink href="#contact" className="p-1 hover:scale-110 duration-300">
               CONTACT
-            </button>
+            </AnchorLink>
           </li>
           <li>
-            <button className="p-1 border-2 hover:bg-neutral hover:text-white duration-300 border-neutral">
+            <AnchorLink
+              href="#"
+              className="p-1 border-2 hover:bg-neutral hover:text-white duration-300 border-neutral"
+            >
               BOOK A VISIT
-            </button>
+            </AnchorLink>
           </li>
           <li>
-            <button className="p-1 hover:scale-110 duration-300">EN</button>
+            <AnchorLink href="#" className="p-1 hover:scale-110 duration-300">
+              EN
+            </AnchorLink>
           </li>
         </ul>
       </div>

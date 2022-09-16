@@ -8,10 +8,10 @@ const Title = () => {
       offset: ["start end", "end end"],
     }
   );
-  const scale = useTransform(scrollYProgress, [0.06, 0.1], [-2.01, 0.01]);
+  const scale = useTransform(scrollYProgress, [0.06, 0.1], [1, 0.9]);
   return (
-    <motion.div style={{ scale }} className='mr-[750px]'>
-      <h1 className="text-9xl rotate-180 font-header font-bold absolute -mt-10 text-[#333333]">
+    <motion.div style={{ scale }} className='hidden lg:block card-actions justify-start'>
+      <h1 className="text-9xl font-header font-bold absolute -mt-20 text-[#333333]">
         radisson
       </h1>
     </motion.div>

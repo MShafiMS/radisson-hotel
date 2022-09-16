@@ -3,10 +3,10 @@ import { MdEmail, MdLocalPhone, MdLocationOn } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className="bg-[#E4E1DF] px-16">
-      <div className="flex items-end py-16">
-        <h1 className="text-9xl font-header w-full">radisson</h1>
-        <p className="w-full flex items-center gap-2 uppercase">
+    <div className="bg-[#E4E1DF] lg:px-16">
+      <div className="lg:flex items-end py-16">
+        <h1 className="lg:text-9xl text-7xl text-center lg:text-left font-header w-full">radisson</h1>
+        <p className="w-full hidden lg:flex items-center gap-2 uppercase">
           <div>
             <span className="font-bold">Lorem</span>ipsum
           </div>
@@ -22,27 +22,27 @@ const Footer = () => {
           </div>
         </p>
       </div>
-      <div className="py-10 flex justify-between max-w-2xl">
-        <div className="flex flex-col gap-1">
-          <MdEmail className="text-4xl" />
+      <div className="py-10 lg:flex w-full justify-between max-w-2xl">
+        <div className="flex flex-col gap-1 text-center lg:text-left">
+          <MdEmail className="text-4xl mx-auto lg:mx-0" />
           <h1 className="text-4xl font-medium">EMAIL</h1>
           <h1>Get In Touch</h1>
           <h1>hello@radisson.re</h1>
         </div>
-        <div className="flex flex-col gap-1">
-          <MdLocalPhone className="text-4xl" />
+        <div className="flex flex-col gap-1 text-center lg:text-left">
+          <MdLocalPhone className="text-4xl mx-auto lg:mx-0" />
           <h1 className="text-4xl font-medium">PHONE</h1>
           <h1>Call or text</h1>
           <h1>+1 (234) 567-8900</h1>
         </div>
-        <div className="flex flex-col gap-1">
-          <MdLocationOn className="text-4xl" />
+        <div className="flex flex-col gap-1 text-center lg:text-left">
+          <MdLocationOn className="text-4xl mx-auto lg:mx-0" />
           <h1 className="text-4xl font-medium">OFFICE</h1>
           <h1>1801 Lorem St, Ipsum</h1>
           <h1>Dolor P5H 4Y8</h1>
         </div>
       </div>
-      <div className="flex justify-end pb-8 gap-6">
+      <div className="flex lg:justify-end justify-center pb-8 gap-6">
         <a>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -77,9 +77,9 @@ const Footer = () => {
           </svg>
         </a>
       </div>
-      <div className="flex border-t pt-10 pb-14 border-neutral justify-between">
-        <p>Copyright © 2022 - All right reserved by Radisson Resort Ltd</p>
-        <p>Credits</p>
+      <div className="flex border-t pt-10 pb-14 border-neutral lg:justify-between">
+        <p className="text-center">Copyright © 2022 - All right reserved by Radisson Resort Ltd</p>
+        <p className="hidden lg:block">Credits</p>
       </div>
     </div>
   );
