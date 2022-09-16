@@ -4,7 +4,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import { useScroll } from "../../Hooks/useScroll";
 
 const Navbar = () => {
-  const { y, x, scrollDirection } = useScroll();
+  const { scrollDirection } = useScroll();
   const styles = {
     active: {
       visibility: "visible",
@@ -18,18 +18,6 @@ const Navbar = () => {
   };
   return (
     <>
-      
-      <div
-        style={scrollDirection === "down" ? styles.active : styles.hidden}
-        className="navbar flex lg:hidden fixed z-50 bg-base-100"
-      >
-        <div className="flex-1">
-          <AnchorLink href="#" className="font-bold p-1 font-header text-2xl">
-            radisson
-          </AnchorLink>
-        </div>
-        <div className="flex-none text-2xl">menu</div>
-      </div>
       <motion.div
         initial="visible"
         whileInView="hidden"
@@ -46,7 +34,7 @@ const Navbar = () => {
             <li>
               <AnchorLink
                 href="#units"
-                className="p-1 hover:scale-110 duration-300"
+                className="p-1hover:scale-110 duration-300"
               >
                 AVAILABLE UNITS
               </AnchorLink>
@@ -54,7 +42,7 @@ const Navbar = () => {
             <li>
               <AnchorLink
                 href="#hood"
-                className="p-1 hover:scale-110 duration-300"
+                className="p-1hover:scale-110 duration-300"
               >
                 NEIGHBOURHOOD
               </AnchorLink>
@@ -62,7 +50,7 @@ const Navbar = () => {
             <li>
               <AnchorLink
                 href="#contact"
-                className="p-1 hover:scale-110 duration-300"
+                className="p-1hover:scale-110 duration-300"
               >
                 CONTACT
               </AnchorLink>
@@ -76,7 +64,7 @@ const Navbar = () => {
               </AnchorLink>
             </li>
             <li>
-              <AnchorLink href="#" className="p-1 hover:scale-110 duration-300">
+              <AnchorLink href="#" className="p-1hover:scale-110 duration-300">
                 EN
               </AnchorLink>
             </li>
