@@ -35,3 +35,14 @@
 .swiper-pagination-bullet-active {
   background-color: #b48c80 !important;
 }
+
+/* custom scrollbar  */
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+  background: #e4e1df;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333333;
+}

@@ -17,59 +17,73 @@ const Navbar = () => {
     },
   };
   return (
-    <motion.div
-      initial="visible"
-      whileInView="hidden"
-      style={scrollDirection === "down" ? styles.active : styles.hidden}
-      className="navbar lg:flex px-14 hidden fixed z-50 bg-base-100 py-4"
-    >
-      <div className="flex-1">
-        <AnchorLink href="#" className="font-bold p-1 font-header text-5xl">
-          radisson
-        </AnchorLink>
+    <>
+      
+      <div
+        style={scrollDirection === "down" ? styles.active : styles.hidden}
+        className="navbar flex lg:hidden fixed z-50 bg-base-100"
+      >
+        <div className="flex-1">
+          <AnchorLink href="#" className="font-bold p-1 font-header text-2xl">
+            radisson
+          </AnchorLink>
+        </div>
+        <div className="flex-none text-2xl">menu</div>
       </div>
-      <div className="flex-none">
-        <ul className="flex gap-6 text-lg font-medium">
-          <li>
-            <AnchorLink
-              href="#units"
-              className="p-1 hover:scale-110 duration-300"
-            >
-              AVAILABLE UNITS
-            </AnchorLink>
-          </li>
-          <li>
-            <AnchorLink
-              href="#hood"
-              className="p-1 hover:scale-110 duration-300"
-            >
-              NEIGHBOURHOOD
-            </AnchorLink>
-          </li>
-          <li>
-            <AnchorLink
-              href="#contact"
-              className="p-1 hover:scale-110 duration-300"
-            >
-              CONTACT
-            </AnchorLink>
-          </li>
-          <li>
-            <AnchorLink
-              href="#"
-              className="p-1 border-2 hover:bg-neutral hover:text-white duration-300 border-neutral"
-            >
-              BOOK A VISIT
-            </AnchorLink>
-          </li>
-          <li>
-            <AnchorLink href="#" className="p-1 hover:scale-110 duration-300">
-              EN
-            </AnchorLink>
-          </li>
-        </ul>
-      </div>
-    </motion.div>
+      <motion.div
+        initial="visible"
+        whileInView="hidden"
+        style={scrollDirection === "down" ? styles.active : styles.hidden}
+        className="navbar lg:flex px-14 hidden fixed z-50 bg-base-100 py-4"
+      >
+        <div className="flex-1">
+          <AnchorLink href="#" className="font-bold p-1 font-header text-5xl">
+            radisson
+          </AnchorLink>
+        </div>
+        <div className="flex-none">
+          <ul className="flex gap-6 text-lg font-medium">
+            <li>
+              <AnchorLink
+                href="#units"
+                className="p-1 hover:scale-110 duration-300"
+              >
+                AVAILABLE UNITS
+              </AnchorLink>
+            </li>
+            <li>
+              <AnchorLink
+                href="#hood"
+                className="p-1 hover:scale-110 duration-300"
+              >
+                NEIGHBOURHOOD
+              </AnchorLink>
+            </li>
+            <li>
+              <AnchorLink
+                href="#contact"
+                className="p-1 hover:scale-110 duration-300"
+              >
+                CONTACT
+              </AnchorLink>
+            </li>
+            <li>
+              <AnchorLink
+                href="#"
+                className="p-1 border-2 hover:bg-neutral hover:text-white duration-300 border-neutral"
+              >
+                BOOK A VISIT
+              </AnchorLink>
+            </li>
+            <li>
+              <AnchorLink href="#" className="p-1 hover:scale-110 duration-300">
+                EN
+              </AnchorLink>
+            </li>
+          </ul>
+        </div>
+      </motion.div>
+    </>
   );
 };
 
