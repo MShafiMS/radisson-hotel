@@ -39,11 +39,11 @@ const Slider = () => {
         <SwiperSlide>
           <div className="hero lg:px-8 text-white bg-[#2E4239]">
             <div className="hero-content w-full flex-col">
-              <div className="flex items-center w-full justify-between">
+              <div className="flex lg:hidden items-center w-full justify-between">
                 <h1 className="font-sub text-sm uppercase whitespace-nowrap">
                   AVAILABLE units
                 </h1>
-                <div className="flex lg:hidden justify-end w-full gap-4">
+                <div className="flex justify-end w-full gap-4">
                   <div className="border cursor-pointer custom-swiper-button-prev p-[6px] rounded-full">
                     <AiOutlineArrowLeft />
                   </div>
@@ -117,11 +117,11 @@ const Slider = () => {
         <SwiperSlide>
           <div className="hero lg:px-8 text-white bg-[#2E4239]">
             <div className="hero-content w-full flex-col">
-              <div className="flex items-center w-full justify-between">
+              <div className="flex lg:hidden items-center w-full justify-between">
                 <h1 className="font-sub text-sm uppercase whitespace-nowrap">
                   AVAILABLE units
                 </h1>
-                <div className="flex lg:hidden justify-end w-full gap-4">
+                <div className="flex justify-end w-full gap-4">
                   <div className="border cursor-pointer custom-swiper-button-prev p-[6px] rounded-full">
                     <AiOutlineArrowLeft />
                   </div>
@@ -195,11 +195,11 @@ const Slider = () => {
         <SwiperSlide>
           <div className="hero lg:px-8 text-white bg-[#2E4239]">
             <div className="hero-content w-full flex-col">
-              <div className="flex items-center w-full justify-between">
+              <div className="flex lg:hidden items-center w-full justify-between">
                 <h1 className="font-sub text-sm uppercase whitespace-nowrap">
                   AVAILABLE units
                 </h1>
-                <div className="flex lg:hidden justify-end w-full gap-4">
+                <div className="flex justify-end w-full gap-4">
                   <div className="border cursor-pointer custom-swiper-button-prev p-[6px] rounded-full">
                     <AiOutlineArrowLeft />
                   </div>
@@ -270,11 +270,11 @@ const Slider = () => {
         <SwiperSlide>
           <div className="hero lg:px-8 text-white bg-[#2E4239]">
             <div className="hero-content w-full flex-col">
-              <div className="flex items-center w-full justify-between">
+              <div className="flex lg:hidden items-center w-full justify-between">
                 <h1 className="font-sub text-sm uppercase whitespace-nowrap">
                   AVAILABLE units
                 </h1>
-                <div className="flex lg:hidden justify-end w-full gap-4">
+                <div className="flex justify-end w-full gap-4">
                   <div className="border cursor-pointer custom-swiper-button-prev p-[6px] rounded-full">
                     <AiOutlineArrowLeft />
                   </div>

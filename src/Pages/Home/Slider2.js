@@ -56,13 +56,13 @@ const Slider2 = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <div className="bg-[#E4E1DF] hero">
+            <div className="bg-[#E4E1DF] hero lg:pb-16">
               <div className="hero-content lg:gap-32 items-start flex-col-reverse lg:flex-row-reverse">
                 <div className="lg:w-6/12 flex flex-col">
                   <div className="w-full lg:flex hidden">
                     <div className="flex-1"></div>
                     <div className="flex-none w-8/12">
-                      <img src="https://images.unsplash.com/photo-1535827841776-24afc1e255ac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" />
+                      <img src="https://images.unsplash.com/photo-1563911302283-d2bc129e7570?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80" />
                     </div>
                   </div>
                   <div className="flex justify-end lg:my-7 w-full gap-4">
@@ -97,7 +97,7 @@ const Slider2 = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="bg-[#E4E1DF] hero">
+            <div className="bg-[#E4E1DF] hero lg:pb-16">
               <div className="hero-content lg:gap-32 items-start flex-col-reverse lg:flex-row-reverse">
                 <div className="lg:w-6/12 flex flex-col">
                   <div className="w-full lg:flex hidden">

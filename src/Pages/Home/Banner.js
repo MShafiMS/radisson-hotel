@@ -73,8 +73,8 @@ const Banner = () => {
                 style={{ scaleX: scrollYProgress }}
               />
               <motion.div ref={ref} className="min-h-screen">
-                <div className="min-h-screen w-full mx-5 lg:mx-20">
-                  <h1 className="mb-16 lg:pt-0 pt-48 text-3xl lg:text-5xl font-medium w-full lg:max-w-2xl">
+                <div className="min-h-screen text-center lg:text-left mx-5 lg:mx-20">
+                  <h1 className="mb-16 lg:pt-0 pt-48 text-3xl lg:text-5xl font-medium w-full lg:lg:max-w-2xl">
                     Hotel comfort, long term convenience.
                   </h1>
                   <div className="flex lg:flex-row flex-col text-center gap-10 lg:gap-40 lg:mb-96">
@@ -91,19 +91,19 @@ const Banner = () => {
                       <p>Hot Tub</p>
                     </div>
                   </div>
-                  <h1 className="lg:py-96 py-48 text-3xl lg:text-5xl font-medium max-w-2xl">
+                  <h1 className="lg:py-96 py-48 text-3xl lg:text-5xl font-medium lg:max-w-2xl">
                     Across from Concordia, steps from McGill and all the other
                     major Downtown Montreal Landmarks.
                   </h1>
-                  <h1 className="lg:py-96 py-48 text-3xl lg:text-5xl font-medium max-w-2xl">
+                  <h1 className="lg:py-96 py-48 text-3xl lg:text-5xl font-medium lg:max-w-2xl">
                     Accessible luxury. Fully-furnished premium furniture from
                     Rove Concepts.
                   </h1>
-                  <h1 className="lg:py-96 py-48 text-3xl lg:text-5xl font-medium max-w-2xl">
+                  <h1 className="lg:py-96 py-48 text-3xl lg:text-5xl font-medium lg:max-w-2xl">
                     Flexible leasing terms. <br /> 1-month minimum. <br />{" "}
                     Monthly <VscArrowBoth className="inline" /> Yearly
                   </h1>
-                  <h1 className="lg:py-96 py-48 text-3xl lg:text-5xl font-medium max-w-2xl"></h1>
+                  <h1 className="lg:py-96 py-48 text-3xl lg:text-5xl font-medium lg:max-w-2xl"></h1>
                 </div>
               </motion.div>
             </div>
