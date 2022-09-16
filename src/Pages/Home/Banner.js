@@ -4,6 +4,7 @@ import { AiOutlineBulb } from "react-icons/ai";
 import { MdHotTub } from "react-icons/md";
 import { TbSofa } from "react-icons/tb";
 import { VscArrowBoth } from "react-icons/vsc";
+import Title from "../../Component/Title";
 
 const Banner = () => {
   const scrollRef = useRef(null);
@@ -15,7 +16,7 @@ const Banner = () => {
   const scale = useTransform(scrollYProgress, [0, 0.009], [0.94, 1]);
   return (
     <>
-      <div className="navbar px-14 z-50 bg-base-100 py-4 -mb-16">
+      <div className="navbar px-14 z-50 bg-base-100 py-4 mb-16">
         <div className="flex-1"></div>
         <div className="flex-none">
           <ul className="flex gap-6 text-lg font-medium">
@@ -46,29 +47,19 @@ const Banner = () => {
         </div>
       </div>
       <motion.div style={{ scale }}>
-        <motion.h1
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          className="text-9xl font-header font-bold"
-        >
-          radisson
-        </motion.h1>
         <div className="bg-fixed bg-no-repeat bg-cover bg-[url('https://images.unsplash.com/photo-1521750465-672a0f580901?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80')]">
           <div className=" text-white">
             {/* <div className="hero-content min-h-screen"></div> */}
-            <div className="ml-20">
-              <motion.div
-                initial={{ opacity: 1 }}
-                whileInView={{ opacity: 0 }}
-                viewport={{ root: scrollRef }}
-                className="min-h-screen"
-              ></motion.div>
+            <div>
+              <motion.div className="h-screen w-full relative bg-fixed bg-no-repeat bg-cover bg-[url('https://images.unsplash.com/photo-1521750465-672a0f580901?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80')]">
+                <Title></Title>
+              </motion.div>
               <motion.div
                 className="fixed h-[8px] bg-white top-0 left-0 right-0 origin-left"
                 style={{ scaleX: scrollYProgress }}
               />
               <motion.div ref={ref} className="min-h-screen">
-                <div className="min-h-screen">
+                <div className="min-h-screen mx-20">
                   <h1 className="mb-16 text-5xl font-medium max-w-2xl">
                     Hotel comfort, long term convenience.
                   </h1>

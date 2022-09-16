@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="bg-[#E4E1DF] px-16">
       <div className="flex items-end py-16">
         <h1 className="text-9xl font-header w-full">radisson</h1>
-        <p className="w-full flex items-center gap-1 uppercase">
+        <p className="w-full flex items-center gap-2 uppercase">
           <div>
             <span className="font-bold">Lorem</span>ipsum
           </div>
