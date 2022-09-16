@@ -17,7 +17,7 @@ const Menu = () => {
       </div>
       <div>
         <ul
-          className={`absolute flex pl-3 justify-start flex-col  gap-6 text-3xl border-b border-black bg-white left-0 w-full transition-all duration-500 ease-in ${
+          className={`absolute lg:hidden flex pl-3 justify-start flex-col  gap-6 text-3xl border-b border-black bg-white left-0 w-full transition-all duration-500 ease-in ${
             open ? "top-16 h-[80vh]" : "top-[-690px]"
           }`}
         >
