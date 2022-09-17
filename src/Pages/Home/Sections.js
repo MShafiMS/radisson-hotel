@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import React from "react";
 
 const Sections = () => {
@@ -9,11 +10,20 @@ const Sections = () => {
       {/* hero1 */}
       <div className="hero lg:py-8">
         <div className="hero-content flex-col items-end lg:flex-row-reverse">
-          <img
+          <motion.img
+            initial={{ x: 200 }}
+            whileInView={{ x: 0 }}
+            transition={{ type: "spring", stiffness: 80 }}
+            viewport={{ once: true }}
             src="https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
             className="rounded-md lg:w-7/12"
           />
-          <div>
+          <motion.div
+            initial={{ x: 200 }}
+            whileInView={{ x: 0 }}
+            transition={{ type: "spring", stiffness: 80 }}
+            viewport={{ once: true }}
+          >
             <h1 className="text-3xl font-sub font-bold uppercase">
               Lorem ipsum dolor sit.
             </h1>
@@ -22,17 +32,26 @@ const Sections = () => {
               Repudiandae obcaecati expedita nobis nesciunt voluptatibus quasi
               fuga quod vitae nulla esse.
             </p>
-          </div>
+          </motion.div>
         </div>
       </div>
       {/* hero2 */}
       <div className="hero lg:py-8">
         <div className="hero-content flex-col items-end lg:flex-row">
-          <img
+          <motion.img
+            initial={{ x: 200 }}
+            whileInView={{ x: 0 }}
+            transition={{ type: "spring", stiffness: 80 }}
+            viewport={{ once: true }}
             src="https://images.unsplash.com/photo-1589923158776-cb4485d99fd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
             className="rounded-md lg:w-5/12"
           />
-          <div>
+          <motion.div
+            initial={{ x: 200 }}
+            whileInView={{ x: 0 }}
+            transition={{ type: "spring", stiffness: 80 }}
+            viewport={{ once: true }}
+          >
             <h1 className="text-3xl font-sub font-bold uppercase">
               Lorem ipsum dolor sit.
             </h1>
@@ -41,17 +60,26 @@ const Sections = () => {
               magnam tempora dicta similique eum aliquam rerum facere ex
               eligendi dolore!
             </p>
-          </div>
+          </motion.div>
         </div>
       </div>
       {/* hero3 */}
       <div className="hero lg:py-8">
         <div className="hero-content flex-col items-end lg:flex-row">
-          <img
+          <motion.img
+            initial={{ x: 200 }}
+            whileInView={{ x: 0 }}
+            transition={{ type: "spring", stiffness: 80 }}
+            viewport={{ once: true }}
             src="https://images.unsplash.com/photo-1602002418153-3e900b530e7d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
             className="rounded-md lg:w-6/12"
           />
-          <div>
+          <motion.div
+            initial={{ x: 200 }}
+            whileInView={{ x: 0 }}
+            transition={{ type: "spring", stiffness: 80 }}
+            viewport={{ once: true }}
+          >
             <h1 className="text-3xl font-sub font-bold uppercase">
               Lorem ipsum dolor sit.
             </h1>
@@ -60,17 +88,26 @@ const Sections = () => {
               Recusandae illo quas, enim quo vitae cupiditate facere
               consequuntur consectetur saepe mollitia?
             </p>
-          </div>
+          </motion.div>
         </div>
       </div>
       {/* hero4 */}
       <div className="hero lg:py-8">
         <div className="hero-content flex-col items-end lg:flex-row-reverse">
-          <img
+          <motion.img
+            initial={{ x: 200 }}
+            whileInView={{ x: 0 }}
+            transition={{ type: "spring", stiffness: 80 }}
+            viewport={{ once: true }}
             src="https://images.unsplash.com/photo-1602002418679-43121356bf41?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
             className="rounded-md lg:w-6/12"
           />
-          <div>
+          <motion.div
+            initial={{ x: 200 }}
+            whileInView={{ x: 0 }}
+            transition={{ type: "spring", stiffness: 80 }}
+            viewport={{ once: true }}
+          >
             <h1 className="text-3xl font-sub font-bold uppercase">
               Lorem ipsum dolor sit.
             </h1>
@@ -79,7 +116,7 @@ const Sections = () => {
               velit aperiam assumenda autem minus quasi praesentium modi
               adipisci amet enim?
             </p>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>
