@@ -75,7 +75,7 @@ const Sections = () => {
             className="rounded-md lg:w-6/12"
           />
           <motion.div
-            initial={{ x: -200 }}
+            initial={{ x: 200 }}
             whileInView={{ x: 0 }}
             transition={{ type: "spring", stiffness: 80 }}
             viewport={{ once: true }}
