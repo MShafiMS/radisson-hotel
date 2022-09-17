@@ -39,7 +39,7 @@ const Sections = () => {
       <div className="hero lg:py-8">
         <div className="hero-content flex-col items-end lg:flex-row">
           <motion.img
-            initial={{ x: 200 }}
+            initial={{ x: -200 }}
             whileInView={{ x: 0 }}
             transition={{ type: "spring", stiffness: 80 }}
             viewport={{ once: true }}
@@ -47,7 +47,7 @@ const Sections = () => {
             className="rounded-md lg:w-5/12"
           />
           <motion.div
-            initial={{ x: 200 }}
+            initial={{ x: -200 }}
             whileInView={{ x: 0 }}
             transition={{ type: "spring", stiffness: 80 }}
             viewport={{ once: true }}
@@ -67,7 +67,7 @@ const Sections = () => {
       <div className="hero lg:py-8">
         <div className="hero-content flex-col items-end lg:flex-row">
           <motion.img
-            initial={{ x: 200 }}
+            initial={{ x: -200 }}
             whileInView={{ x: 0 }}
             transition={{ type: "spring", stiffness: 80 }}
             viewport={{ once: true }}
@@ -75,7 +75,7 @@ const Sections = () => {
             className="rounded-md lg:w-6/12"
           />
           <motion.div
-            initial={{ x: 200 }}
+            initial={{ x: -200 }}
             whileInView={{ x: 0 }}
             transition={{ type: "spring", stiffness: 80 }}
             viewport={{ once: true }}
