@@ -1,6 +1,5 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import React, { useRef } from "react";
-import AnchorLink from "react-anchor-link-smooth-scroll";
 import { AiOutlineBulb } from "react-icons/ai";
 import { MdHotTub } from "react-icons/md";
 import { TbSofa } from "react-icons/tb";
@@ -16,50 +15,6 @@ const Banner = () => {
   const scale = useTransform(scrollYProgress, [0, 0.009], [0.94, 1]);
   return (
     <>
-      <div className="navbar hidden lg:flex px-14 z-50 bg-base-100 py-4 mb-16">
-        <div className="flex-1"></div>
-        <div className="flex-none">
-          <ul className="flex gap-6 text-lg font-medium">
-            <li>
-              <AnchorLink
-                href="#units"
-                className="p-1 hover:scale-110 duration-300"
-              >
-                AVAILABLE UNITS
-              </AnchorLink>
-            </li>
-            <li>
-              <AnchorLink
-                href="#hood"
-                className="p-1 hover:scale-110 duration-300"
-              >
-                NEIGHBOURHOOD
-              </AnchorLink>
-            </li>
-            <li>
-              <AnchorLink
-                href="#contact"
-                className="p-1 hover:scale-110 duration-300"
-              >
-                CONTACT
-              </AnchorLink>
-            </li>
-            <li>
-              <AnchorLink
-                href="#"
-                className="p-1 border-2 hover:bg-neutral hover:text-white duration-300 border-neutral"
-              >
-                BOOK A VISIT
-              </AnchorLink>
-            </li>
-            <li>
-              <AnchorLink href="#" className="p-1 hover:scale-110 duration-300">
-                EN
-              </AnchorLink>
-            </li>
-          </ul>
-        </div>
-      </div>
       <motion.div style={{ scale }}>
         <div className="bg-fixed bg-no-repeat bg-cover bg-[url('https://images.unsplash.com/photo-1521750465-672a0f580901?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80')]">
           <div className=" text-white">
@@ -69,7 +24,7 @@ const Banner = () => {
                 <Title></Title>
               </motion.div>
               <motion.div
-                className="fixed h-[8px] bg-white top-0 left-0 right-0 origin-left"
+                className="fixed z-50 h-[8px] bg-white top-0 left-0 right-0 origin-left"
                 style={{ scaleX: scrollYProgress }}
               />
               <motion.div ref={ref} className="min-h-screen">
